@@ -16,5 +16,4 @@ with open(fileName+".txt", encoding="utf-8", mode="w") as f:
 	for line in lyrics:
 		f.write(line+"\n");
 
-print("File created.")
-
+print("\nFile created.")
